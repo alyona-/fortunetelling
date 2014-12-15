@@ -16,6 +16,9 @@ page.magicButton.className = 'magicButton';
 page.magicText =document.createElement('span');
 page.magicText.className = 'magicText';
 
+
+
+
 page.magicButton.addEventListener('click', function(){
     
 },false);
