@@ -8,7 +8,8 @@ h1 {
    width:400px;
    height:400px;
    border:1px solid #000;
-   background:#000;
+  /* background:#000; */
+    background: radial-gradient(circle,#505050 0%,#121212 100%);
    margin:0 auto;
    margin-top:5%;
 }
