@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9465a83-2554-4a40-9907-1685d443bbda" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main_styles.css" afterPath="$PROJECT_DIR$/styles/main_styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/script.js" afterPath="$PROJECT_DIR$/scripts/script.js" />
-    </list>
+    <list default="true" id="c9465a83-2554-4a40-9907-1685d443bbda" name="Default" comment="" />
     <ignored path="fortunetelling.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
