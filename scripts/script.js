@@ -1,4 +1,9 @@
-var page = {}
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+var page = {};
 page.answer = new Array();
 page.answer[0] ="Сегодня будет выходной";
 page.answer[1]="Получу пятерку без всякого труда.";
@@ -11,16 +16,15 @@ page.str =new String;
 
 
 page.body = document.body;
-page.magicButton =document.createElement('button');
-page.magicButton.className = 'magicButton';
-page.magicText =document.createElement('span');
-page.magicText.className = 'magicText';
+page.magicText = document.getElementsByClassName('magicText')[0];
 
+page.str = "Нажми на меня, чтобы узнать ответ.";
+page.magicText.innerHTML =page.str;
 
+page.magicTextBlock = document.getElementsByClassName('magicTextBlock')[0];
+page.magicTextBlock.addEventListener('click',function(){
+    var number = getRandomInt(0,5);
+    page.str = page.answer[number];
+    page.magicText.innerHTML =page.str;
 
-
-page.magicButton.addEventListener('click', function(){
-    
 },false);
-
-
