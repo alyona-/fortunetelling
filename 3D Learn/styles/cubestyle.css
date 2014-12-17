@@ -1,0 +1,62 @@
+body {
+ background: url(http://subtlepatterns.com/patterns/light_noise_diagonal.png);
+ font:1em 'PS Sans',Tahoma,Arial;
+}
+#wrapper {
+    /*Опишем перспективу*/
+    /* perspective:900px;*/
+   -moz-perspective:900px;
+   /* -webkit-perspective:900px; */
+    margin: 80px;
+}
+
+#cube {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    /*Данное свойство необходимо, для того , чтобы мы потом могли вращать куб*/
+    /*transform-origin:50% 50% -150px; */
+    /*-webkit-transform-origin:50% 50% -150px; *//*Трансформ орижин находится в центре кубе*/
+    -moz-transform-origin:50% 50% -150px;
+    -moz-transform:rotate3d(1,1,1,50deg);
+    /*для того, чтобы мы увидили отображение всех сторон*/
+    -moz-transform-style:preserve-3d;
+
+}
+
+.side {
+    width:300px;
+    height:300px;
+    background: rgba(0,0,0,.3);
+    background: radial-gradient(rgba(0,0,0,.1),rgba(0,0,0,.5));
+    position: absolute;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 300px;
+    text-align: center;
+    text-shadow: 0 1px 3px rgba(0,0,0,.4);
+    box-shadow: 0 0 6px rgba(0,0,0,.5);
+    /*Данное свойство необходимо, для того , чтобы мы потом могли вращать куб*/
+   /* transform-origin:50% 50% -150px; */
+   /* -webkit-transform-origin:50% 50% -150px;*/ /*Трансформ орижин находится в центре кубе*/
+    -moz-transform-origin:50% 50% -150px;
+
+}
+
+/*Теперь мы должны повернуть каждую сторону, для того, чтобы она встала на свое место*/
+#side2{
+      transform:rotateY(90deg);
+  }
+#side3{
+    transform:rotateY(-90deg);
+}
+#side4{
+    transform:rotateX(90deg);
+}
+#side5{
+    transform:rotateX(-90deg);
+}
+#side6{
+    transform:rotateY(180deg);
+}

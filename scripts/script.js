@@ -5,12 +5,23 @@ function getRandomInt(min, max) {
 
 var page = {};
 page.answer = new Array();
+/*
 page.answer[0] ="Сегодня будет выходной";
 page.answer[1]="Получу пятерку без всякого труда.";
 page.answer[2]="Спалят на списывании.";
 page.answer[3]="Буду решать интересную задачу.";
 page.answer[4]="Позвонит Билл Гейтс.";
-page.answer[5]="Гугл мечтает о тебе. :))";
+page.answer[5]="Гугл мечтает о тебе. :))"; */
+page.answer[0] ='Бифит';
+page.answer[2] ='Бифит';
+page.answer[4] ='Бифит';
+page.answer[6] ='Бифит';
+page.answer[8] ='Бифит';
+page.answer[1] ='Айсимпл';
+page.answer[3] ='Айсимпл';
+page.answer[5] ='Айсимпл';
+page.answer[7] ='Айсимпл';
+page.answer[9] ='Айсимпл';
 
 page.str =new String;
 
