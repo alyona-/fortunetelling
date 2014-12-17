@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="91c709b5-a6ed-4458-8a0c-f64ffac5a6ac" name="Default" comment="" />
+    <list default="true" id="91c709b5-a6ed-4458-8a0c-f64ffac5a6ac" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3D Learn/styles/cubestyle.css" afterPath="$PROJECT_DIR$/3D Learn/styles/cubestyle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js" afterPath="$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3D Learn/scripts/script.js" afterPath="$PROJECT_DIR$/3D Learn/scripts/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="fortunetelling.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,7 +31,7 @@
       <file leaf-file-name="cube.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3D Learn/cube.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="630" selection-end="630" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="510">
+            <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="510">
               <folding />
             </state>
           </provider>
@@ -35,9 +40,18 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3D Learn/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.20105125" vertical-offset="0" max-vertical-offset="761">
+            <state line="12" column="61" selection-start="386" selection-end="386" vertical-scroll-proportion="0.27530363" vertical-offset="0" max-vertical-offset="741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.11.1.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="95884" selection-end="95884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
               <folding>
-                <element signature="e#0#41#0" expanded="false" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -46,7 +60,7 @@
       <file leaf-file-name="cubestyle.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3D Learn/styles/cubestyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="35" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1139">
+            <state line="11" column="22" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
               <folding />
             </state>
           </provider>
@@ -73,19 +87,20 @@
         <option value="$PROJECT_DIR$/styles/main_styles.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
-        <option value="$PROJECT_DIR$/3D Learn/styles/cubestyle.css" />
         <option value="$PROJECT_DIR$/3D Learn/scripts/jquery.js" />
         <option value="$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.0.min.js" />
         <option value="$PROJECT_DIR$/3D Learn/cube.html" />
+        <option value="$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js" />
+        <option value="$PROJECT_DIR$/3D Learn/styles/cubestyle.css" />
         <option value="$PROJECT_DIR$/3D Learn/scripts/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="450" />
-    <option name="y" value="70" />
+    <option name="x" value="1185" />
+    <option name="y" value="40" />
     <option name="width" value="1680" />
-    <option name="height" value="921" />
+    <option name="height" value="901" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -230,14 +245,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="450" y="70" width="1680" height="921" extended-state="0" />
+    <frame x="1185" y="40" width="1680" height="901" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28846154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -264,45 +279,19 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/3D Learn/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="459">
+        <state line="11" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+    <entry file="file://$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/styles/main_styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.55510205" vertical-offset="0" max-vertical-offset="782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="295" selection-end="295" vertical-scroll-proportion="0.33568406" vertical-offset="0" max-vertical-offset="709">
-          <folding />
+        <state line="18" column="0" selection-start="95884" selection-end="95884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -315,17 +304,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3D Learn/cube.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="630" selection-end="630" vertical-scroll-proportion="-13.730769" vertical-offset="0" max-vertical-offset="510">
+        <state line="21" column="8" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3D Learn/scripts/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.20105125" vertical-offset="0" max-vertical-offset="761">
+        <state line="11" column="3" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D Learn/styles/cubestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="35" selection-start="634" selection-end="634" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1139">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="459" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/styles/main_styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="673" selection-end="673" vertical-scroll-proportion="0.55510205" vertical-offset="0" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="10" selection-start="295" selection-end="295" vertical-scroll-proportion="0.33568406" vertical-offset="0" max-vertical-offset="709" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D Learn/cube.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="262" selection-end="262" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="510">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D Learn/styles/cubestyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="22" selection-start="322" selection-end="322" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1547">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D Learn/scripts/jquery-1.11.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="95884" selection-end="95884" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding>
-            <element signature="e#0#41#0" expanded="false" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D Learn/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="61" selection-start="386" selection-end="386" vertical-scroll-proportion="0.27530363" vertical-offset="0" max-vertical-offset="741">
+          <folding />
         </state>
       </provider>
     </entry>
