@@ -13,11 +13,13 @@
     border:1px solid #000;
     width:20px;
     height: 90px;
+    transform: rotate(-90deg);
 
 }
 .valueInput {
     width:40px;
     height: 90px;
+   /* transform: rotate(90deg); */
 
 }
 
@@ -45,6 +47,7 @@
     overflow: hidden;
 }
 
+
 .userInput, .constInput{
     position: absolute;
     top: 0px;
@@ -54,6 +57,28 @@
     width:42px;
     height:30px;
     text-align: center;
+   /* z-index: 4; */
+}
+
+label {
+    position: absolute;
+    border:1px solid #000;
+    width:40px;
+    height:30px;
+    top: 0px;
+    left:0px;
+    background: #000000;
+    text-align: center;
+}
+.constInput:before{
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: green;
+  /*  z-index: 5; */
 }
 .userInput:disabled{
     /*background: blue; */

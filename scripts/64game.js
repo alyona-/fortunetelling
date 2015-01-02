@@ -11,6 +11,9 @@ var page ={};
 //alert('Работает');
 
 //Метод, который реализует перемешивание элементов в массива в случайном порядке
+page.constHr =document.querySelectorAll('.constHr');
+//Превращаем page.userInput в массив для того, чтобы потом можно было обратиться к значению и поменять value
+page.constHr = [].slice.call(document.querySelectorAll(".constHr"));
 Array.prototype.shuffle = function( b )
 {
     var i = this.length, j, t;
@@ -82,10 +85,18 @@ document.querySelector('body').addEventListener('click', function(event){
                 //  alert('После добавления = '+event.target.value);
                 // alert()
                 break;
-            }else if(classList == 'constTd'||classList=='constInput'){
+            }else if(classList == 'constTd'||classList=='constInput'||target.classList=='label'){
+               // alert(target.classList);
+          //  }else if(event.target.parentNode==){
                 // alert('Работает');
+                //alert(target.parentNode.firstChild.tagName);
+              //  alert(target.value);
+                page.constHr[(target.value-1)*2].className = 'line_1_a';
+              //  page.constHr[0].className = 'line_1_a';
+                page.constHr[(target.value-1)*2+1].className = 'line_2_a';
             }else if(classList == 'generateNumber'){
                 //alert('Работает');
+                page.constHr[1].className = 'line_2_a';
                 //функция при нажатии на кнопку
                 genNumber();
 
