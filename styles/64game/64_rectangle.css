@@ -1,0 +1,36 @@
+@import "mainOptionStyleRecAnim.css";
+.line_1{
+    transform: rotate(38deg);
+    top: 5px;
+    left: -11px;
+}
+.line_2{
+    transform: rotate(142deg); /*Увеличила на 7, было 135*/
+    top: -5px;
+    left: -9px;
+}
+.line_1,.line_2{
+    position: relative;
+    width:150%;
+    border:none; /*убираем границу*/
+    height:2px;/*Толщина линии*/
+    z-index: 3;
+}
+
+.line_1:before{
+    -webkit-animation:line 3s;
+}
+.line_2:before{
+    -webkit-animation-name:line2;
+    -webkit-animation-duration:3s;/*Время выполнения анимации*/
+    -webkit-animation-delay:3s; /*время до начала анимации*/
+}
+.line_1:before, .line_2:before{
+    -webkit-animation-fill-mode:both; /*анимация будет воздействовать на элемент после воспроизведения*/
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

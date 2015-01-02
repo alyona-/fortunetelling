@@ -1,0 +1,63 @@
+
+/*Регулирование высоты*/
+.constTr:nth-child(1) .constTd, .userTr:nth-child(1) .userTd{
+    top: -webkit-calc(35px*0);
+}
+
+.constTr:nth-child(2) .constTd, .userTr:nth-child(2) .userTd{
+    top: -webkit-calc(35px*1);
+
+}
+.constTr:nth-child(3) .constTd, .userTr:nth-child(3) .userTd{
+    top: -webkit-calc(35px*2);
+}
+.constTr:nth-child(4) .constTd, .userTr:nth-child(4) .userTd{
+    top: -webkit-calc(35px*3);
+}
+
+/*Регулирование растояния*/
+.constTr .constTd:nth-child(2), .userTr .userTd:nth-child(2){
+    left: -webkit-calc(45px*1);
+}
+.constTr .constTd:nth-child(3), .userTr .userTd:nth-child(3){
+    left: -webkit-calc(45px*2);
+}
+.constTr .constTd:nth-child(4), .userTr .userTd:nth-child(4){
+    left: -webkit-calc(45px*3);
+}
+.constTr .constTd:nth-child(5), .userTr .userTd:nth-child(5){
+    left: -webkit-calc(45px*4);
+}
+.constTr .constTd:nth-child(6), .userTr .userTd:nth-child(6){
+    left: -webkit-calc(45px*5);
+}
+.constTr .constTd:nth-child(7), .userTr .userTd:nth-child(7){
+    left: -webkit-calc(45px*6);
+}
+.constTr .constTd:nth-child(8), .userTr .userTd:nth-child(8){
+    left: -webkit-calc(45px*7);
+}
+.constTr .constTd:nth-child(9), .userTr .userTd:nth-child(9){
+    left: -webkit-calc(45px*8);
+}
+.constTr .constTd:nth-child(10), .userTr .userTd:nth-child(10){
+    left: -webkit-calc(45px*9);
+}
+.constTr .constTd:nth-child(11), .userTr .userTd:nth-child(11){
+    left: -webkit-calc(45px*10);
+}
+.constTr .constTd:nth-child(12), .userTr .userTd:nth-child(12){
+    left: -webkit-calc(45px*11);
+}
+.constTr .constTd:nth-child(13), .userTr .userTd:nth-child(13){
+    left: -webkit-calc(45px*12);
+}
+.constTr .constTd:nth-child(14), .userTr .userTd:nth-child(14){
+    left: -webkit-calc(45px*13);
+}
+.constTr .constTd:nth-child(15), .userTr .userTd:nth-child(15){
+    left: -webkit-calc(45px*14);
+}
+.constTr .constTd:nth-child(16), .userTr .userTd:nth-child(16){
+    left: -webkit-calc(45px*15);
+}

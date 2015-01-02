@@ -1,2 +1,60 @@
 @import "64_rectangle.css";
 @import "64_rec_animation.css";
+@import "64_rec_position.css";
+
+/*Стиль для значения полей*/
+
+.valueTable{
+    position: relative;
+    margin: 0px auto;
+
+}
+.valueTd {
+    border:1px solid #000;
+    width:20px;
+    height: 90px;
+
+}
+.valueInput {
+    width:40px;
+    height: 90px;
+
+}
+
+
+.userTable, .constTable {
+    position: relative;
+    display: block;
+    margin:0px auto;
+    border:1px solid #000;
+    width:720px;
+    height:140px;
+}
+
+.constTable {
+    border-top:3px solid gold;
+}
+
+
+.userTd, .constTd {
+    position: absolute;
+    border:1px solid #000;
+    width:40px;
+    height:30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.userInput, .constInput{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    border: none;
+    outline: none;
+    width:42px;
+    height:30px;
+    text-align: center;
+}
+.userInput:disabled{
+    /*background: blue; */
+}
