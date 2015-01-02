@@ -1,0 +1,29 @@
+.changeOption {
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+    width:45px;
+    height: 45px;
+
+}
+
+.changeOption img {
+    width: 35px;
+    height: 35px;
+}
+.changeOption img:hover{
+    -webkit-animation-name: options_img;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function:;
+
+
+}
+@-webkit-keyframes  options_img{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+ }

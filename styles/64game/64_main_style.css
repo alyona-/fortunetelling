@@ -1,33 +1,19 @@
 @import "64_rectangle.css";
 @import "64_rec_animation.css";
 @import "64_rec_position.css";
+@import "64_value_list.css";
+@import "64_options_change.css";
 
-/*Стиль для значения полей*/
 
-.valueTable{
-    position: relative;
-    margin: 0px auto;
-
-}
-.valueTd {
-    border:1px solid #000;
-    width:20px;
-    height: 90px;
-    transform: rotate(-90deg);
-
-}
-.valueInput {
-    width:40px;
-    height: 90px;
-   /* transform: rotate(90deg); */
-
-}
 
 
 .userTable, .constTable {
     position: relative;
     display: block;
+   /* margin-top: 200px; */
+
     margin:0px auto;
+    margin-top: 80px;
     border:1px solid #000;
     width:720px;
     height:140px;
@@ -60,16 +46,6 @@
    /* z-index: 4; */
 }
 
-label {
-    position: absolute;
-    border:1px solid #000;
-    width:40px;
-    height:30px;
-    top: 0px;
-    left:0px;
-    background: #000000;
-    text-align: center;
-}
 .constInput:before{
     position: absolute;
     content: "";

@@ -1,0 +1,22 @@
+/*Стиль для значения полей*/
+
+.valueTable{
+    position: relative;
+    margin: 0px auto;
+    border: 1px solid red;
+    width: 720px;
+
+}
+.valueTd {
+    border:1px solid #000;
+   /* width:42px;
+    height:30px; */
+
+    width:40px;
+    height:30px;
+
+}
+.valueInput {
+    position: relative;
+
+}
