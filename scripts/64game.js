@@ -12,6 +12,12 @@ template.buttonNo.className = 'buttonNo';
 template.buttonYes.className = 'buttonYes';
 template.buttonNo.innerText = 'Отмена';
 template.buttonYes.innerText = 'Применить';
+template.fon = document.getElementsByClassName('fon')[0];
+template.inputValue = new Array();
+for(var i=0;i<16;i++){
+    template.inputValue[i]=document.createElement('input');
+    template.inputValue.type ='text';
+}
 /*Функция, для перемешивания элементов массива случайным образом*/
 /* Array.shuffle( deep ) - перемешать элементы массива случайным образом
  deep - необязательный аргумент логического типа, указывающий на то,
@@ -105,11 +111,13 @@ document.querySelector('body').addEventListener('click', function(event){
                // alert('Работает');
                 if(template.win.style.display=='none'){
                     alert('Был запуск');
+                    template.fon.style.display ='block';
                     template.win.style.display = 'block';
                 }
                 else  createPopup();
             }if(classList == 'buttonNo'){
                 template.win.style.display = 'none';
+                template.fon.style.display ='none';
             }
             else break;
         }
@@ -145,7 +153,13 @@ function clickTdUser(link){
 function createPopup(){
 
     template.body.appendChild(template.win);
+    //template.win
+   /* for(var i=0;i<16;i++){
+        template.win.appendChild(template.inputValue[i]);
+    }  */
+    template.fon.style.display ='block';
     template.win.appendChild(template.buttonNo);
     template.win.appendChild(template.buttonYes);
+
 
 }
