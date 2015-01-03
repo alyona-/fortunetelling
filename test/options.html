@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .boxOptions {
+            position: fixed;
+
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 999;
+            text-align: center;
+        }
+        /* в нём находится полупрозрачный экран, на 20px меньше */
+        .fon {
+            position: absolute;
+            /*left: 20px;
+            right: 20px;
+            top: 20px;
+            bottom: 20px; */
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: blue;
+            opacity: 0.3;
+            filter: alpha(opacity=30);
+        }
+        /* форма находится не в экране, а рядом с ним, чтобы не быть полупрозрачной */
+        .boxOptions form {
+            position: absolute;
+            top: 0; bottom: 0; right: 0; left: 0; /* центрирование */
+            margin: auto;  /* центрирование */
+            height: 450px;
+            width: 550px;
+            border: 1px solid black;
+            padding: 5px 5px 5px 75px;
+            background: url(key.png) 3px 5px white no-repeat;
+        }
+        .optionButton{
+            position: relative;
+            width: 20px;
+            height: 20px;
+        }
+        .optionImg{
+            position: absolute;
+            width:10px;
+            height:10px;
+top: 30%;
+            left:25%;
+           /* top: 0;left: 0;right: 0;bottom: 0; */
+
+        }
+        .optionInp{
+            width:90px;
+            height: 25px;
+
+        }
+        .optionTd{
+            margin-left: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="boxOptions">
+    <div class="fon"></div>
+    <form>
+        <h4>Вы можете изменить значения в таблице:</h4>
+        <table class="optionTable">
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option1" class="optionLab">Значение 1: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 1" id="option1" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option9" class="optionLab">Значение 9: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 9" id="option9" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+
+            </tr>
+
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option2" class="optionLab">Значение 2: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 2" id="option2" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+                <td class="optionTd">
+                    <label for="option10" class="optionLab">Значение 10: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 10" id="option10" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+            </tr>
+
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option3" class="optionLab">Значение 3: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 3" id="option3" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option11" class="optionLab">Значение 11: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 11" id="option11" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+            </tr>
+
+
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option4" class="optionLab">Значение 4: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 4" id="option4" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option12" class="optionLab">Значение 12: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 12" id="option12" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+            </tr>
+
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option5" class="optionLab">Значение 5: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 5" id="option5" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option13" class="optionLab">Значение 13: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 13" id="option13" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+            </tr>
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option6" class="optionLab">Значение 6: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 6" id="option6" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option14" class="optionLab">Значение 14: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 14" id="option14" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+            </tr>
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option7" class="optionLab">Значение 7: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 7" id="option7" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option15" class="optionLab">Значение 15: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 15" id="option15" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+
+            </tr>
+
+
+
+            <tr class="optionTr">
+                <td class="optionTd">
+                    <label for="option8" class="optionLab">Значение 8: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 8" id="option8" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+                <td class="optionTd">
+                    <label for="option16" class="optionLab">Значение 16: </label>
+                </td>
+                <td class="optionTd">
+                    <input type="text" placeholder="Значение 16" id="option16" class="optionInp">
+                    <button class="optionButton">
+                        <img src="../img/button_options.png" class="optionImg" alt="картинка опций">
+                    </button>
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</div>
+</body>
+</html>

@@ -152,12 +152,16 @@ function clickTdUser(link){
 
 function createPopup(){
 
-    template.body.appendChild(template.win);
+  //  template.body.appendChild(template.win);
     //template.win
    /* for(var i=0;i<16;i++){
         template.win.appendChild(template.inputValue[i]);
     }  */
+
     template.fon.style.display ='block';
+    template.fon.appendChild(template.win);
+
+ //   template.win.innerHTML = template.inputValue[0];
     template.win.appendChild(template.buttonNo);
     template.win.appendChild(template.buttonYes);
 
