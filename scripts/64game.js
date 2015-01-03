@@ -2,6 +2,16 @@
  * Created by Alyona on 02.01.2015.
  */
 var page ={};
+var template ={};
+template.win = document.createElement('div');
+template.win.className = 'windowOptions';
+template.body = document.body;
+template.buttonNo = document.createElement('button');
+template.buttonYes = document.createElement('button');
+template.buttonNo.className = 'buttonNo';
+template.buttonYes.className = 'buttonYes';
+template.buttonNo.innerText = 'Отмена';
+template.buttonYes.innerText = 'Применить';
 /*Функция, для перемешивания элементов массива случайным образом*/
 /* Array.shuffle( deep ) - перемешать элементы массива случайным образом
  deep - необязательный аргумент логического типа, указывающий на то,
@@ -79,27 +89,27 @@ document.querySelector('body').addEventListener('click', function(event){
                 }else{
                     // alert('Есть число');
                 }
-
-
-                //  event.target.innerText= page.counter;
-                //  alert('После добавления = '+event.target.value);
-                // alert()
                 break;
             }else if(classList == 'constTd'||classList=='constInput'||target.classList=='label'){
-               // alert(target.classList);
           //  }else if(event.target.parentNode==){
-                // alert('Работает');
                 //alert(target.parentNode.firstChild.tagName);
               //  alert(target.value);
                 page.constHr[(target.value-1)*2].className = 'line_1_a';
-              //  page.constHr[0].className = 'line_1_a';
                 page.constHr[(target.value-1)*2+1].className = 'line_2_a';
             }else if(classList == 'generateNumber'){
-                //alert('Работает');
                 page.constHr[1].className = 'line_2_a';
                 //функция при нажатии на кнопку
                 genNumber();
 
+            }if(classList == 'changeOption' || classList == 'changeOptionImg'){
+               // alert('Работает');
+                if(template.win.style.display=='none'){
+                    alert('Был запуск');
+                    template.win.style.display = 'block';
+                }
+                else  createPopup();
+            }if(classList == 'buttonNo'){
+                template.win.style.display = 'none';
             }
             else break;
         }
@@ -129,4 +139,13 @@ document.querySelector('body').addEventListener('click', function(event){
 
 function clickTdUser(link){
     alert('work');
+}
+
+
+function createPopup(){
+
+    template.body.appendChild(template.win);
+    template.win.appendChild(template.buttonNo);
+    template.win.appendChild(template.buttonYes);
+
 }
