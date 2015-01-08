@@ -4,6 +4,7 @@
 @import "64_value_list.css";
 @import "64_options_change.css";
 @import "newWindow/newWindow.css";
+@import "windowOptions/windowOptions.css";
 
 html,body {
     width: 100%;
