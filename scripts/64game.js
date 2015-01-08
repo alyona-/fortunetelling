@@ -7,7 +7,12 @@ template.win = document.createElement('div');
 //template.win.className = 'windowOptions';
 template.win.className = 'boxOptions';
 template.body = document.body;
-//template.fon = document.getElementsByClassName('fon')[0];
+
+template.valueSpan =document.querySelectorAll('.valueSpan');
+template.valueSpan = [].slice.call(document.querySelectorAll(".valueSpan"));
+
+template.optionInp = document.querySelectorAll('.optionInp');
+template.optionInp = [].slice.call(document.querySelectorAll(".optionInp"));
 
 
 
@@ -111,7 +116,10 @@ document.querySelector('body').addEventListener('click', function(event){
             }if(classList == 'onNot'){
                 template.win.style.display = 'none';
                 template.fon.style.display ='none';
+            }if(classList == 'onOk'){
+                applyChangeOptions();
             }
+
             else break;
         }
         if(i==true)break;
@@ -137,7 +145,13 @@ document.querySelector('body').addEventListener('click', function(event){
 
     // clickTdUser(target);
 });
-
+function applyChangeOptions(){
+  //  alert(template.optionInp[0].value);
+    template.valueSpan[0].innerText = 'Новое значение 1';
+    template.valueSpan[1].innerText = 'Новое значение 2';
+    template.win.style.display = 'none';
+    template.fon.style.display ='none';
+}
 
 function createPopup(){
     template.input = document.getElementsByClassName('optionInp')[0];
@@ -145,22 +159,11 @@ function createPopup(){
     template.body.appendChild(template.win);
     template.win.innerHTML = template.content;
    // document.getElementById('option1').setAttribute("placeholder", "текст");
-   // alert(document.getElementById('option1').setAttribute("placeholder"));
-
-
-    //valueSpan
-    template.valueSpan =document.querySelectorAll('.valueSpan');
-    template.valueSpan = [].slice.call(document.querySelectorAll(".valueSpan"));
-   // alert(template.valueSpan[1].innerText);
 
     for(var i=0;i<16;i++){
-        document.getElementsByClassName('optionInp')[i].setAttribute("placeholder", template.valueSpan[i].innerText);
+        template.optionInp[i].setAttribute("placeholder", template.valueSpan[i].innerText);
     }
 
-   // for(var )
-    //alert(template.input.value);
-    //template.win.appendChild(template.buttonNo);
-    //template.win.appendChild(template.buttonYes);
 
 }
 
