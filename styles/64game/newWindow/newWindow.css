@@ -22,15 +22,3 @@
     border: 1px solid powderblue;
     z-index: 2;
 }
-.buttonNo, .buttonYes{
-    position: absolute;
-    bottom: 10px;
-    width: 70px;
-    height: 30px;
-}
-.buttonYes{
-    left: 10px;
-}
-.buttonNo{
-    right: 10px;
-}

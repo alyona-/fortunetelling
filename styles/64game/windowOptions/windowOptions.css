@@ -55,3 +55,16 @@
 .optionTd{
     margin-left: 10px;
 }
+
+.onNot, .onOk{
+    position: absolute;
+    bottom: 10px;
+    width: 70px;
+    height: 30px;
+}
+.onOk{
+    left: 10px;
+}
+.onNot{
+    right: 10px;
+}
