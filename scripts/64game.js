@@ -140,8 +140,25 @@ document.querySelector('body').addEventListener('click', function(event){
 
 
 function createPopup(){
+    template.input = document.getElementsByClassName('optionInp')[0];
+
     template.body.appendChild(template.win);
     template.win.innerHTML = template.content;
+   // document.getElementById('option1').setAttribute("placeholder", "текст");
+   // alert(document.getElementById('option1').setAttribute("placeholder"));
+
+
+    //valueSpan
+    template.valueSpan =document.querySelectorAll('.valueSpan');
+    template.valueSpan = [].slice.call(document.querySelectorAll(".valueSpan"));
+   // alert(template.valueSpan[1].innerText);
+
+    for(var i=0;i<16;i++){
+        document.getElementsByClassName('optionInp')[i].setAttribute("placeholder", template.valueSpan[i].innerText);
+    }
+
+   // for(var )
+    //alert(template.input.value);
     //template.win.appendChild(template.buttonNo);
     //template.win.appendChild(template.buttonYes);
 
