@@ -1,0 +1,19 @@
+@-webkit-keyframes line{
+    from {
+        left:0;
+    }
+    to{
+        left:100%;
+
+    }
+}
+
+@-webkit-keyframes line2{
+    from {
+        left:100%;
+    }
+    to{
+        left:0%;
+
+    }
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <style>
+        body{
+            background: gainsboro;
+        }
+        .colorWheel {
+            overflow: hidden;
+            position: relative;
+            margin: 1em auto;
+            width: 16em;
+            height: 16em;
+            background: linear-gradient(36deg,#272b66 42.34%,transparent 42.34%)/*прямоугольник*/
+
+        }
+    </style>
+</head>
+<body>
+<input type="checkbox" id="ps" class="btn">
+<label for="ps">
+    <span class="opt paused">play</span>
+    <span class="opt running">pause</span>
+</label>
+
+<div class="colorWheel"></div>
+</body>
+</html>

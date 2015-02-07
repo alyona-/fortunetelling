@@ -1,0 +1,24 @@
+@-webkit-keyframes line{
+    from {
+        right:100%;
+
+    }
+    to{
+        right:0%;
+        background-color: red;/*цвет линии*/
+        color: red;/*для IE6-7*/
+
+    }
+}
+@-webkit-keyframes line2{
+    from {
+        left:100%;
+
+    }
+    to{
+        left:0%;
+        background-color: red;/*цвет линии*/
+        color: red;/*для IE6-7*/
+
+    }
+}

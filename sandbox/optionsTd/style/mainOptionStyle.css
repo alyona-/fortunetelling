@@ -1,0 +1,38 @@
+@import "mainOptionStyleRec.css";
+
+
+.userTable, .constTable {
+    position: relative;
+    margin:0px auto;
+}
+.constTable {
+    border-top:3px solid gold;
+}
+.constTr{
+    position: relative;
+}
+.userTd, .constTd {
+    position: absolute;
+    border:1px solid #000;
+    width:40px;
+    height:30px;
+    text-align: center;
+    overflow: hidden;
+}
+.constTd:nth-child(2){
+    left: 45px;
+    background: blue;
+}
+.userInput, .constInput{
+    position: absolute;
+    top: 0px;
+    left:0px;
+    border: none;
+    outline: none;
+    width:42px;
+    height:30px;
+    text-align: center;
+}
+.userInput:disabled{
+    /*background: blue; */
+}

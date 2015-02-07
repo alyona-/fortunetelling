@@ -1,0 +1,180 @@
+@import "anim_experement.css";
+.rect {
+    position: relative;
+    border:3px solid #000;
+    width:100px;
+    height:100px;
+    background: green;
+    margin: 100px 0 0 50px;
+}
+.rect:before {
+    position: absolute;
+    content: "";
+    top:0;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    background: red;
+    transform:rotate(45deg);
+    /* width:0;
+     height:0;
+     border-bottom: 100px solid red;
+     border-right: 100px solid transparent; */
+
+}
+
+.red_one{
+    border:none; /*убираем границу*/
+    background-color: red;/*цвет линии*/
+    color: red;/*для IE6-7*/
+    height:2px;/*Толщина линии*/
+    margin:0;
+    padding: 0;
+    transform: rotate(120deg);
+
+}
+
+td{
+    border:1px solid #000;
+    width:100px;
+    height:100px;
+}
+.rec, .rec2,.rec3,.rec4,.rec5,.rec6{
+    float: left;
+}
+.rec {
+    width:100px;
+    height:100px;
+    border:2px solid #000;
+    /* background:  linear-gradient(45deg,
+     #F2E1AC 40%,
+     #F2836B 40%, #F2836B 60%,
+     #F2594B 60%, #F2594B 80%,
+     #CD2C24 80%); */
+
+    /* background:  linear-gradient(45deg,
+     #F2E1AC 40%,
+     #F2836B 40%,#F2836B 60%,
+     #F2836B 60%,#F2836B 80%,
+     #F2E1AC 80%
+     ); */
+
+
+    background: linear-gradient(45deg,
+    #F2E1AC 49%,
+    #F2836B 49%,#F2836B 50%,
+    #F2836B 51%,#F2836B 52%,
+    #F2E1AC 52%)
+
+}
+
+.rec2 {
+    width:100px;
+    height:100px;
+    border:2px solid #000;
+    background: linear-gradient(135deg,
+    #F2E1AC 49%,
+    #F2836B 49%,#F2836B 50%,
+    #F2836B 51%,#F2836B 52%,
+    #F2E1AC 52% )
+
+}
+.rec3,.rec4,.rec5,.rec6{
+    position: relative;
+    width:100px;
+    height:100px;
+    border:2px solid #000;
+}
+.line1{
+    position: relative;
+    width:145%;
+    top: 40px;
+    left: -25px;
+    transform: rotate(45deg);
+    border:none; /*убираем границу*/
+    background-color: red;/*цвет линии*/
+    color: red;/*для IE6-7*/
+    height:2px;/*Толщина линии*/
+
+}
+.line1:before{
+    position: absolute;
+    background: green;
+    content: "";
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.line2{
+    position: relative;
+    width:145%;
+    top: 40px;
+    left: -25px;
+    transform: rotate(135deg);
+    border:none; /*убираем границу*/
+    background-color: red;/*цвет линии*/
+    color: red;/*для IE6-7*/
+    height:2px;/*Толщина линии*/
+
+}
+.line2:before{
+    position: absolute;
+    background: green;
+    content: "";
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+}
+.line3{
+    position: relative;
+    width:145%;
+    top: 40px;
+    left: -25px;
+    transform: rotate(45deg);
+    border:none; /*убираем границу*/
+    background-color: red;/*цвет линии*/
+    color: red;/*для IE6-7*/
+    height:2px;/*Толщина линии*/
+
+}
+.line3:before{
+    -webkit-animation:line 3s;
+    position: absolute;
+    background: green;
+    content: "";
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+.line4{
+    position: relative;
+    width:145%;
+    top: 40px;
+    left: -25px;
+    transform: rotate(135deg);
+    border:none; /*убираем границу*/
+    background-color: #fff;/*цвет линии*/
+    color: #fff;/*для IE6-7*/
+    height:2px;/*Толщина линии*/
+
+}
+.line4:before{
+    -webkit-animation:line 3s;
+    -webkit-animation-direction:reverse;
+    -webkit-transition-duration:infinite;
+    -webkit-animation-fill-mode:both; /*анимация будет воздействовать на элемент после воспроизведения*/
+    position: absolute;
+    background: green;
+    content: "";
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    background-color: red;/*цвет линии*/
+    color: red;/*для IE6-7*/
+}
